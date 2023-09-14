@@ -454,7 +454,7 @@ h6 {
 }
 
 #hero h2 span {
-  color:  #FFD700;
+  color: #5c9f24;
 }
 
 #hero p {
@@ -510,11 +510,12 @@ h6 {
 
 #hero .carousel-control-next-icon:hover,
 #hero .carousel-control-prev-icon:hover {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.8);
 }
 
 #hero .carousel-indicators li {
+  list-style-type: none;
   cursor: pointer;
   background: #fff;
   overflow: hidden;
@@ -528,7 +529,7 @@ h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background:  #FFD700;
+  background: #5c9f24;
 }
 
 #hero .btn-get-started {
@@ -542,16 +543,16 @@ h6 {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #000000;
+  color: #fff;
   animation-delay: 0.8s;
   text-transform: uppercase;
-  border: 2px solid  #FFD700;
-  background:  #FFD700;
+  border: 2px solid #5c9f24;
+  background: #5c9f24;
 }
 
 #hero .btn-get-started:hover {
-  background: #a0a0a0;
-  border-color: #929292;
+  background: #6ab82a;
+  border-color: #6ab82a;
   color: #fff;
 }
 
@@ -571,6 +572,7 @@ h6 {
     width: 5%;
   }
 }
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
