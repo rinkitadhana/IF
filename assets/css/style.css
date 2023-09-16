@@ -564,6 +564,7 @@ section {
   text-align: center;
   padding-bottom: 30px;
   margin-top: 30px;
+  text-shadow: 1px 3px 5px #353535;
 }
 
 .section-title h2 {
@@ -1009,25 +1010,25 @@ section {
 
 /* Add background images for each internship variety */
 #web-development .internship-image {
-  background-image: url('/assets/img/slide/banner1.jpeg');
+  background-image: url('/assets/img/internship/web.jpeg');
 }
 
 #ui-ux-design .internship-image {
-  background-image: url('/assets/img/slide/banner1.jpeg');
+  background-image: url('/assets/img/internship/uiux.jpeg');
 }
 
 #graphic-design .internship-image {
-  background-image: url('/assets/img/slide/banner1.jpeg');
+  background-image: url('/assets/img/internship/graphic.jpeg');
 }
 
 #c-plus-plus .internship-image {
-  background-image: url('/assets/img/slide/banner1.jpeg');
+  background-image: url('/assets/img/internship/c++.jpeg');
 }
 
 #java .internship-image {
-  background-image: url('/assets/img/slide/banner1.jpeg');
+  background-image: url('/assets/img/internship/java.jpeg');
 }
 
 #python .internship-image {
-  background-image: url('/assets/img/slide/banner1.jpeg');
+  background-image: url('/assets/img/internship/python.jpeg');
 }
