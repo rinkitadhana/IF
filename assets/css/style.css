@@ -563,6 +563,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  margin-top: 30px;
 }
 
 .section-title h2 {
@@ -949,4 +950,84 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+/* INTERNSHIP*/
+
+
+
+.internship-card {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.internship-title {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.internship-description {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.internship-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #02C8F0;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.internship-button:hover {
+  background-color: #001246;
+  color: white;
+}
+
+.internship-card:hover {
+  transform: translateY(-5px);
+}
+
+.internship-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Add background images for each internship variety */
+#web-development .internship-image {
+  background-image: url('/assets/img/slide/banner1.jpeg');
+}
+
+#ui-ux-design .internship-image {
+  background-image: url('/assets/img/slide/banner1.jpeg');
+}
+
+#graphic-design .internship-image {
+  background-image: url('/assets/img/slide/banner1.jpeg');
+}
+
+#c-plus-plus .internship-image {
+  background-image: url('/assets/img/slide/banner1.jpeg');
+}
+
+#java .internship-image {
+  background-image: url('/assets/img/slide/banner1.jpeg');
+}
+
+#python .internship-image {
+  background-image: url('/assets/img/slide/banner1.jpeg');
 }
