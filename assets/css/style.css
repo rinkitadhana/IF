@@ -66,7 +66,7 @@ h6 {
   background: rgba(0, 0, 0, 0.75);
   transition: all 0.5s;
   z-index: 997;
-  height: 80px;
+  height: 75px;
 }
 
 #header .logo {
@@ -1031,4 +1031,148 @@ section {
 
 #python .internship-image {
   background-image: url('/assets/img/internship/python.jpeg');
+}
+
+
+/*SERVICES*/
+
+
+        
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.service-box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.service-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service-description {
+  font-size: 16px;
+  color: #666;
+}
+
+.contact-button {
+  background-color: #02C8F0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #01133F;
+}
+
+.service-image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .service-box {
+      width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .service-box {
+      width: 100%;
+  }
+}
+
+/*ABOUT*/
+
+header {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #02C8F0;
+}
+
+#who-we-are,#our-story,#our-expertise,#our-approach,#why-choose-us {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #d6d6d6;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #02C8F0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul, ol {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+/* Style the list items in "Our Expertise" section */
+ul, ol {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+/* Style the list items in "Why Choose Us?" section */
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  color: #000000;
+}
+
+/* Style links with the blue color */
+a {
+  color: #02C8F0;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Add smooth transition for link color change */
+}
+
+/* Change link color on hover */
+a:hover {
+  color: #0269A0;
 }
