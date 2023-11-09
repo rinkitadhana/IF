@@ -3,8 +3,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-attachment: fixed;
-  font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
@@ -955,7 +954,7 @@ section {
   color: #fff;
 }
 
-/* INTERNSHIP*/
+/* INTERNSHIP
 
 
 
@@ -1010,7 +1009,7 @@ section {
   border-radius: 10px 10px 0 0;
 }
 
-/* Add background images for each internship variety */
+/* Add background images for each internship variety 
 #web-development .internship-image {
   background-image: url('/assets/img/internship/web.jpeg');
 }
@@ -1034,7 +1033,7 @@ section {
 #python .internship-image {
   background-image: url('/assets/img/internship/python.jpeg');
 }
-
+ */
 
 /*SERVICES*/
 
